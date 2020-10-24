@@ -30,9 +30,8 @@ public class Main {
             cat.takeForAWalk();
         }
 
-        Car opel = new Car();
-        opel.model = "Astra";
-        opel.productionYear = 1990;
+        Car fiat = new Car(2003, "Fiat", "Bravo", "gray", 10000.0);
+        System.out.println(fiat.producer + " " + fiat.model + " " + fiat.yearOfProduction);
 
     }
 }
