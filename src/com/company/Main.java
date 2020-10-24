@@ -30,5 +30,9 @@ public class Main {
             cat.takeForAWalk();
         }
 
+        Car opel = new Car();
+        opel.model = "Astra";
+        opel.productionYear = 1990;
+
     }
 }
